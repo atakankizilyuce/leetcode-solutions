@@ -1,3 +1,6 @@
+from typing import Counter
+
+
 class ListNode:
     def __init__(self, val: int):
         self.val = val
@@ -57,3 +60,7 @@ class MyLinkedList:
 # obj.addAtTail(val)
 # obj.addAtIndex(index,val)
 # obj.deleteAtIndex(index)
+
+list1 = [0,1,0,1]
+cnt = Counter(list1)
+print(cnt)
